@@ -13,5 +13,7 @@ public class NetBeansGit {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        prueba2 ejemplo = new prueba2(2,3.5656164);
+        System.out.println("Se imprime el toString de la clase prueba2 con un objeto: \n" + ejemplo);
     }
 }

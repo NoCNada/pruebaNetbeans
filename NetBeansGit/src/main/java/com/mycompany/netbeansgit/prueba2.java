@@ -10,9 +10,9 @@ package com.mycompany.netbeansgit;
  */
 public class prueba2 {
     private int dato1;
-    private float dato2;
+    private double dato2;
 
-    public prueba2(int dato1, float dato2) {
+    public prueba2(int dato1, double dato2) {
         this.dato1 = dato1;
         this.dato2 = dato2;
     }
@@ -25,12 +25,17 @@ public class prueba2 {
         this.dato1 = dato1;
     }
 
-    public float getDato2() {
+    public double getDato2() {
         return dato2;
     }
 
-    public void setDato2(float dato2) {
+    public void setDato2(double dato2) {
         this.dato2 = dato2;
+    }
+
+    @Override
+    public String toString() {
+        return "prueba2{" + "dato1=" + dato1 + ", dato2=" + dato2 + '}';
     }
     
 }
