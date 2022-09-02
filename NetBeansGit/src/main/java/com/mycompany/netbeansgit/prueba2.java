@@ -11,6 +11,7 @@ package com.mycompany.netbeansgit;
 public class prueba2 {
     private int dato1;
     private double dato2;
+    private String saludo = "hola soy editado desde un pull de github";
 
     public prueba2(int dato1, double dato2) {
         this.dato1 = dato1;
@@ -35,7 +36,7 @@ public class prueba2 {
 
     @Override
     public String toString() {
-        return "prueba2{" + "dato1=" + dato1 + ", dato2=" + dato2 + '}';
+        return "prueba2{" + "dato1=" + dato1 + ", dato2=" + dato2 +" saludo= "+ saludo +'}';
     }
     
 }
